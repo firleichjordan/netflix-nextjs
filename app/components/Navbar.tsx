@@ -20,7 +20,7 @@ const Links: linkProps[] = [
   { name: "My List", href: "/home/user/list" },
 ];
 
-export default function () {
+export default function Navbar() {
   const pathName = usePathname();
 
   return (
